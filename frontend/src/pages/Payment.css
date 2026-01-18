@@ -1,0 +1,47 @@
+.checkout-page {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payment-methods label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input,
+.card-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.pay-btn {
+  width: 100%;
+  padding: 12px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pay-btn:hover {
+  background: #15803d;
+}
