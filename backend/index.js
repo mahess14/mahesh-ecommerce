@@ -23,7 +23,7 @@ app.use(express.json());
 app.use("/api/orders", orderRoutes);
 
 
-mongoose.connect("mongodb://localhost:27017/ecommerce-hyd", {
+mongoose.connect("mongodb+srv://mahesssvec_db_user:21lX21AfQfblvH2O@cluster0.57w6agl.mongodb.net/ecommerce", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
